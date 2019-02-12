@@ -1,0 +1,91 @@
+@import './main.less';
+.detail{
+    .detail-head{
+        .w(375);
+        .h(40);
+        background: #89be48;
+        display:flex;
+        justify-content: space-between;
+        color:#fff;
+        .fs(16);
+        .lh(40);
+        i{
+            .w(37);
+            .h(40);
+            display:inline-block;
+            text-align:center;
+        }
+        .icon-jiantou-copy{
+            .fs(20);
+            color:#fff;
+
+        }
+    }
+    .swiper{
+        .w(375);
+        .h(250);
+        display:block;
+        .ant-carousel{
+        display:block;
+
+            .h(250);
+            .w(375);
+            .slick-slider{
+            display:block;
+
+                .h(250);
+                .slick-list{
+                display:block;
+
+                    .h(250);
+                    .slick-track{
+                        display:block;
+                        .h(250);
+                        .slick-slide{
+                            .h(250);
+                            display:block;
+                            div{
+                                .h(250);
+                                display:block;
+                                img{
+                                    display:block;
+                                    .w(375);
+                                    .h(250);
+                                    // display:inline-block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+    }
+    .detail-content{
+        .w(375);
+        .h(111);
+        .padding(20,0,17,0);
+        text-align:center;
+        .detail-name{
+            padding: 0;
+            text-align: center;
+            .fs(20);
+            color: #000;
+            .h(20);
+            .lh(20);
+        }
+        .detail-describe{
+            text-align: center;
+            .fs(14);
+            color: #999;
+            .h(15);
+           .lh(15);
+            .margin(7,0,0,0);
+        }
+        .detail-price{
+            .margin(10,0,0,0);
+            .h(22);
+            color:#333;
+            .lh(22);
+        }
+    }
+}

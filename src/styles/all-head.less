@@ -1,0 +1,63 @@
+@import './main.less';
+.aproducts{
+    .all-head{
+        .w(375);
+        .h(48);
+        background:#89be48;
+        .all-head-content{
+            .w(300);
+            margin:0 auto;
+            text-align:center;
+            .fs(20);
+            .lh(48);
+            color:#fff;
+        }
+        .search-panel {
+            .w(375);
+            .h(48);
+            background-color: #f2f2f2;
+            .padding(6,0,6,0);
+            #search-bar {
+                width: 94%;
+                .h(36);
+                overflow: hidden;
+                border-radius: 6px;
+                margin: 0 auto;
+                padding: 0;
+                position: relative;
+                form{
+                    .icon-sousuo{
+                        .h(36);
+                        .lh(30);
+                        .w(20);
+                        // .padding(6,0,6,0);
+                        .fs(18);
+                        background:#fff;
+                        display:inline-block;
+                    }
+                    .changeStyle {
+                        width: 76%!important;
+                        background-position: .4rem .5rem!important;
+                        text-align: left!important;
+                        .lh(36);
+                        .fs(20);
+                    }
+            
+                    .sch-cancel {
+                        width: 15%;
+                        .h(36);
+                        display: block;
+                        float: right;
+                        background: none;
+                        background-color: transparent;
+                        border: 0;
+                        text-align: right;
+                        .fs(16);
+                        color: #83b842;
+                        .lh(36);
+                    }
+                }
+            }
+        }
+    }
+}
